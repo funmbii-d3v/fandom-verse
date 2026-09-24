@@ -1,0 +1,9 @@
+[
+  { "id": "anime-golden-age", "title": "Why original anime is having a golden age", "categoryId": "anime", "readTime": "6 min read", "emoji": "🎞️", "gradient": ["#7c3aed", "#ec4899"] },
+  { "id": "cozy-games", "title": "Ten cozy games worth your weekend", "categoryId": "gaming", "readTime": "5 min read", "emoji": "🌱", "gradient": ["#0d9488", "#3b82f6"] },
+  { "id": "debut-groups", "title": "Debut groups to watch this year", "categoryId": "kpop", "readTime": "4 min read", "emoji": "🎵", "gradient": ["#c026d3", "#f59e0b"] },
+  { "id": "practical-effects", "title": "The practical effects making fantasy feel real", "categoryId": "movies", "readTime": "7 min read", "emoji": "🎬", "gradient": ["#dc2626", "#f97316"] },
+  { "id": "small-screen-mysteries", "title": "Small-screen mysteries with big ideas", "categoryId": "tv", "readTime": "5 min read", "emoji": "📺", "gradient": ["#0f766e", "#6366f1"] },
+  { "id": "panel-to-page", "title": "How bold color changes the comic page", "categoryId": "comics", "readTime": "4 min read", "emoji": "💥", "gradient": ["#ea580c", "#facc15"] },
+  { "id": "manga-worldbuilding", "title": "A reader's guide to gentle worldbuilding", "categoryId": "manga", "readTime": "6 min read", "emoji": "📚", "gradient": ["#0f766e", "#38bdf8"] }
+]

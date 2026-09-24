@@ -1,0 +1,63 @@
+{
+  "brand": "FandomVerse",
+  "navigation": [
+    { "label": "Home", "href": "#home" },
+    { "label": "Articles", "href": "#articles" },
+    { "label": "Trailers", "href": "#media" },
+    { "label": "Events", "href": "#events" },
+    { "label": "Merchandise", "href": "#merch" },
+    { "label": "About", "href": "#about" },
+    { "label": "Contact", "href": "#contact" }
+  ],
+  "hero": {
+    "headline": "What will you explore today?",
+    "subtitle": "News, trailers, characters, events and merch for every fandom you love, all in one portal.",
+    "searchPlaceholder": "Try \"Starfall Academy\" or \"K-Pop tour\"",
+    "searchButton": "Search",
+    "stickers": ["🎮", "⭐", "🎤", "📖", "💥"]
+  },
+  "sections": {
+    "trending": "Trending now",
+    "articles": "Featured articles",
+    "media": "Media hub",
+    "characters": "Popular characters",
+    "releases": "Upcoming releases",
+    "events": "Event highlights",
+    "merchandise": "Featured merchandise"
+  },
+  "actions": {
+    "signUp": "Sign up",
+    "logIn": "Log in",
+    "viewAll": "View all",
+    "add": "Add",
+    "note": "Note",
+    "remove": "Remove",
+    "close": "Close",
+    "clearSearch": "Clear search"
+  },
+  "search": {
+    "globalPlaceholder": "Search anime, games, movies, characters...",
+    "helper": "Search across every fandom, story, release and product."
+  },
+  "emptyStates": {
+    "trending": "Nothing trending here just yet. Pick another fandom or try a different search.",
+    "articles": "No featured articles match this fandom yet. Check back soon.",
+    "media": "No media matches that search. Try another title or fandom.",
+    "characters": "No characters match that search. Try another name or series.",
+    "releases": "No upcoming releases match that search.",
+    "events": "No event highlights match that search.",
+    "merchandise": "No merchandise matches that search. Try another keyword."
+  },
+  "footer": {
+    "about": "A fan portal for the stories, worlds and communities you love. Made for fandom discovery; the demo cart has no checkout.",
+    "visitors": "Visitors",
+    "quickLinks": "Explore",
+    "contactEmail": "hello@fandomverse.example"
+  },
+  "cart": {
+    "title": "Your demo cart",
+    "empty": "Your cart is empty. Add a little fandom joy.",
+    "total": "Estimated total",
+    "disclaimer": "Demo cart only — no checkout or payment."
+  }
+}

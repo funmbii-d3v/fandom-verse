@@ -1,0 +1,9 @@
+[
+  { "id": "kaito", "name": "Kaito", "series": "Starfall Academy", "categoryId": "anime", "emoji": "🧑‍🚀", "color": "#c084fc" },
+  { "id": "mira", "name": "Mira", "series": "Last Ember", "categoryId": "movies", "emoji": "👩‍🚀", "color": "#f87171" },
+  { "id": "ren", "name": "Ren", "series": "Star Rail Drifters", "categoryId": "gaming", "emoji": "🧙", "color": "#60a5fa" },
+  { "id": "yuna", "name": "Yuna", "series": "Neon Bloom", "categoryId": "kpop", "emoji": "🎤", "color": "#f472b6" },
+  { "id": "zed", "name": "Zed", "series": "Panel Break", "categoryId": "comics", "emoji": "🦸", "color": "#fb923c" },
+  { "id": "sora", "name": "Sora", "series": "Paper Moon Diaries", "categoryId": "manga", "emoji": "🌙", "color": "#2dd4bf" },
+  { "id": "tavi", "name": "Tavi", "series": "Strange Signals", "categoryId": "tv", "emoji": "🛰️", "color": "#fbbf24" }
+]

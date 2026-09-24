@@ -1,0 +1,27 @@
+{
+  "tabs": [
+    { "id": "videos", "label": "Videos" },
+    { "id": "gallery", "label": "Gallery" },
+    { "id": "audio", "label": "Audio clips" }
+  ],
+  "items": {
+    "videos": [
+      { "id": "season-three-trailer", "title": "Season Three: First Look", "categoryId": "anime", "emoji": "▶️", "gradient": ["#7c3aed", "#ff8a2b"] },
+      { "id": "gameplay-reveal", "title": "Pixel Garden Gameplay Reveal", "categoryId": "gaming", "emoji": "🎮", "gradient": ["#2563eb", "#ffb347"] },
+      { "id": "official-teaser", "title": "Last Ember — Official Teaser", "categoryId": "movies", "emoji": "🎬", "gradient": ["#dc2626", "#ffb347"] },
+      { "id": "signal-trailer", "title": "Strange Signals: New Trailer", "categoryId": "tv", "emoji": "📡", "gradient": ["#0d9488", "#6366f1"] }
+    ],
+    "gallery": [
+      { "id": "fan-art-wall", "title": "Community Fan Art Wall", "categoryId": "anime", "emoji": "🖼️", "gradient": ["#c084fc", "#ff3d8b"] },
+      { "id": "concept-sketches", "title": "Pixel Garden Concept Sketches", "categoryId": "gaming", "emoji": "✏️", "gradient": ["#0d9488", "#3b82f6"] },
+      { "id": "set-moments", "title": "Last Ember: Set Moments", "categoryId": "movies", "emoji": "🎥", "gradient": ["#dc2626", "#f59e0b"] },
+      { "id": "cover-gallery", "title": "Panel Break Cover Gallery", "categoryId": "comics", "emoji": "📚", "gradient": ["#ea580c", "#facc15"] }
+    ],
+    "audio": [
+      { "id": "fandom-podcast", "title": "The Fandom Desk — Episode 12", "categoryId": "manga", "emoji": "🎧", "gradient": ["#7c3aed", "#ff8a2b"] },
+      { "id": "soundtrack-sampler", "title": "Starfall Soundtrack Sampler", "categoryId": "anime", "emoji": "🎼", "gradient": ["#c026d3", "#f59e0b"] },
+      { "id": "creator-interview", "title": "Indie Creator Interview", "categoryId": "gaming", "emoji": "🎙️", "gradient": ["#2563eb", "#22d3ee"] },
+      { "id": "behind-the-beat", "title": "Behind the Beat: Midnight Rookies", "categoryId": "kpop", "emoji": "🎤", "gradient": ["#c026d3", "#fb7185"] }
+    ]
+  }
+}

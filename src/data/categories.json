@@ -1,0 +1,10 @@
+[
+  { "id": "all", "name": "All", "emoji": "✨", "color": "#ff3d8b" },
+  { "id": "anime", "name": "Anime", "emoji": "🌸", "color": "#c084fc" },
+  { "id": "gaming", "name": "Gaming", "emoji": "🎮", "color": "#60a5fa" },
+  { "id": "movies", "name": "Movies", "emoji": "🎬", "color": "#f87171" },
+  { "id": "tv", "name": "TV Shows", "emoji": "📺", "color": "#fbbf24" },
+  { "id": "kpop", "name": "K-Pop", "emoji": "🎤", "color": "#f472b6" },
+  { "id": "comics", "name": "Comics", "emoji": "💥", "color": "#fb923c" },
+  { "id": "manga", "name": "Manga", "emoji": "📖", "color": "#2dd4bf" }
+]

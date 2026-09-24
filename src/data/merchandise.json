@@ -1,0 +1,8 @@
+[
+  { "id": "starfall-hoodie", "name": "Starfall hoodie", "priceLabel": "$35–$48", "cartPrice": 41.5, "emoji": "🧥", "categoryId": "anime", "gradient": ["#7c3aed", "#ec4899"] },
+  { "id": "ember-cap", "name": "Ember cap", "priceLabel": "$18–$24", "cartPrice": 21, "emoji": "🧢", "categoryId": "movies", "gradient": ["#dc2626", "#f97316"] },
+  { "id": "drifter-figure", "name": "Drifter figure", "priceLabel": "$40–$62", "cartPrice": 51, "emoji": "🤖", "categoryId": "gaming", "gradient": ["#2563eb", "#22d3ee"] },
+  { "id": "bloom-lightstick", "name": "Bloom light stick", "priceLabel": "$25–$32", "cartPrice": 28.5, "emoji": "💡", "categoryId": "kpop", "gradient": ["#c026d3", "#f59e0b"] },
+  { "id": "comic-tote", "name": "Comic-panel tote", "priceLabel": "$14–$20", "cartPrice": 17, "emoji": "👜", "categoryId": "comics", "gradient": ["#ea580c", "#facc15"] },
+  { "id": "plush-mascot", "name": "Pixel plush mascot", "priceLabel": "$22–$30", "cartPrice": 26, "emoji": "🧸", "categoryId": "gaming", "gradient": ["#0d9488", "#84cc16"] }
+]

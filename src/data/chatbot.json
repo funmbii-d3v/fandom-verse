@@ -1,0 +1,75 @@
+{
+  "greeting": "Hiii! 🤖 I'm your FandomVerse guide. What would you like to know?",
+  "fallback": "Hmm, I don't have an answer for that yet. Try one of the suggested questions, or search the site from the magnifier in the top bar! ✨",
+  "faqs": [
+    {
+      "q": "🎌 Recommend me an anime",
+      "keywords": ["anime", "recommend", "suggest", "watch"],
+      "a": "Try Solo Hunter Chronicles for action or Starfall Academy for drama. The Anime hub has more picks, characters and trailers! 🌸",
+      "link": { "label": "Open Anime hub", "href": "#anime" }
+    },
+    {
+      "q": "🎮 What's new in gaming?",
+      "keywords": ["game", "gaming", "rpg", "play"],
+      "a": "The Gaming hub has the latest articles, trailers and character profiles. Star Rail Drifters 2 arrives Nov 7! 🚀",
+      "link": { "label": "Open Gaming hub", "href": "#gaming" }
+    },
+    {
+      "q": "📅 What's coming out soon?",
+      "keywords": ["release", "coming", "upcoming", "soon", "calendar"],
+      "a": "Check the Upcoming Releases panel. Starfall Academy S4 lands Oct 31, Last Ember on Nov 14 and Strange Signals S5 on Nov 21. 🗓️",
+      "link": { "label": "See releases", "href": "#events" }
+    },
+    {
+      "q": "🎬 Where can I watch trailers?",
+      "keywords": ["trailer", "video", "teaser", "watch", "clip"],
+      "a": "The Media Hub collects trailers, interviews, podcasts and fan videos from every category. You can filter by category and release status. 🍿",
+      "link": { "label": "Go to Media Hub", "href": "#media" }
+    },
+    {
+      "q": "🎤 Tell me about K-Pop",
+      "keywords": ["kpop", "k-pop", "idol", "music", "concert"],
+      "a": "The K-Pop hub has debut spotlights, music videos, tour news and fan meetups. 🌟",
+      "link": { "label": "Open K-Pop hub", "href": "#k-pop" }
+    },
+    {
+      "q": "📚 Do you cover comics and manga?",
+      "keywords": ["comic", "comics", "manga", "read"],
+      "a": "Yes! Both have their own hubs with articles, galleries and character profiles. 💥📖",
+      "link": { "label": "Open Manga hub", "href": "#manga" }
+    },
+    {
+      "q": "🛍️ How does the cart work?",
+      "keywords": ["cart", "buy", "merch", "shop", "price", "order", "checkout"],
+      "a": "Browse the merchandise, tap Add, and the cart total updates instantly. It's a demo cart, so there's no checkout or payment. 🧢",
+      "link": { "label": "Browse merch", "href": "#merch" }
+    },
+    {
+      "q": "🔖 How do bookmarks work?",
+      "keywords": ["bookmark", "save", "favorite", "favourite", "note"],
+      "a": "Tap the bookmark on any article, character, media item or event. Bookmarks stay saved in your browser, and personal notes last for the current session. You can also export your list. 🔖"
+    },
+    {
+      "q": "🔍 How do I search or filter?",
+      "keywords": ["search", "find", "filter", "sort"],
+      "a": "Use the magnifier in the top bar to search everything. On a category page you can filter by content type and tags, and sort by A-Z, newest or popular. 🔎"
+    },
+    {
+      "q": "🎟️ Any events I can join?",
+      "keywords": ["event", "convention", "meetup", "expo", "party"],
+      "a": "See Event Highlights for conventions, watch parties and meetups, both past and upcoming. 🎉",
+      "link": { "label": "See events", "href": "#events" }
+    },
+    {
+      "q": "🔐 Do I need an account?",
+      "keywords": ["account", "login", "log in", "sign up", "signup", "register"],
+      "a": "Nope! Log in and Sign up are just a UI demo, so everything is open to browse. 😊"
+    },
+    {
+      "q": "💬 How do I contact the team?",
+      "keywords": ["contact", "help", "support", "team", "about", "email"],
+      "a": "Head to the Contact Us page for the team's details and a map. There's also an About Us page about the project. 💌",
+      "link": { "label": "Contact us", "href": "#about" }
+    }
+  ]
+}
