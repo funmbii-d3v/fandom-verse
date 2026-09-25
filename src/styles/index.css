@@ -833,6 +833,8 @@ h3,
   background: var(--art-gradient, var(--gradient));
   font-size: 58px;
 }
+.gradient-thumb{position:relative;overflow:hidden;background-image:var(--art-gradient)}
+.thumb-image{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
 
 .thumb-emoji {
   filter: drop-shadow(0 4px 5px rgba(31, 18, 53, 0.17));

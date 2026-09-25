@@ -5,7 +5,7 @@
     {
       "q": "🎌 Recommend me an anime",
       "keywords": ["anime", "recommend", "suggest", "watch"],
-      "a": "Try Solo Hunter Chronicles for action or Starfall Academy for drama. The Anime hub has more picks, characters and trailers! 🌸",
+      "a": "Try Frieren for action or Starfall Nana for drama. The Anime hub has more picks, characters and trailers! 🌸",
       "link": { "label": "Open Anime hub", "href": "#anime" }
     },
     {
@@ -17,7 +17,7 @@
     {
       "q": "📅 What's coming out soon?",
       "keywords": ["release", "coming", "upcoming", "soon", "calendar"],
-      "a": "Check the Upcoming Releases panel. Starfall Academy S4 lands Oct 31, Last Ember on Nov 14 and Strange Signals S5 on Nov 21. 🗓️",
+      "a": "Check the Upcoming Releases panel. Avengers DoomsDay lands Dec 30, Last Ember on Nov 14 and Strange Signals S5 on Nov 21. 🗓️",
       "link": { "label": "See releases", "href": "#events" }
     },
     {

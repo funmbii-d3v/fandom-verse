@@ -55,7 +55,7 @@ export default function ArticleGrid() {
             const noteOpen = openNotes.has(article.id);
             return (
               <Card className="article-card filter-card" key={article.id} data-reveal>
-                <GradientThumb emoji={article.emoji} gradient={article.gradient} className="article-thumb">
+                <GradientThumb image={article.image} gradient={article.gradient} className="article-thumb">
                   <button
                     className={`bookmark-toggle${saved ? " saved" : ""}`}
                     type="button"

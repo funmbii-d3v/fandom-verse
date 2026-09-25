@@ -171,7 +171,7 @@ export default function ChatBot() {
               <div className="faq-list" aria-label="Suggested questions">
                 <p>Tap a question below 👇</p>
                 {chatbot.faqs.map((faq) => (
-                  <button type="button" key={faq.q} onClick={() => ask(faq.q, faq)}>
+                  <button type="button" key={faq.q} onClick={() => ask(faq.q, faq)} style={{marginLeft: 15}}>
                     {faq.q}
                   </button>
                 ))}

@@ -12,7 +12,7 @@
   "hero": {
     "headline": "What will you explore today?",
     "subtitle": "News, trailers, characters, events and merch for every fandom you love, all in one portal.",
-    "searchPlaceholder": "Try \"Starfall Academy\" or \"K-Pop tour\"",
+    "searchPlaceholder": "Try \"Frieren\" or \"K-Pop tour\"",
     "searchButton": "Search",
     "stickers": ["🎮", "⭐", "🎤", "📖", "💥"]
   },
@@ -49,14 +49,14 @@
     "merchandise": "No merchandise matches that search. Try another keyword."
   },
   "footer": {
-    "about": "A fan portal for the stories, worlds and communities you love. Made for fandom discovery; the demo cart has no checkout.",
+    "about": "A fan portal for the stories, worlds and communities you love. Made for fandom discovery.",
     "visitors": "Visitors",
     "quickLinks": "Explore",
-    "contactEmail": "hello@fandomverse.example"
+    "contactEmail": "contact.fandomverse@gmail.com"
   },
   "cart": {
     "title": "Your demo cart",
-    "empty": "Your cart is empty. Add a little fandom joy.",
+    "empty": "Your cart is empty. Add a little fandom joy ✨.",
     "total": "Estimated total",
     "disclaimer": "Demo cart only — no checkout or payment."
   }

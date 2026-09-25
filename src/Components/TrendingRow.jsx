@@ -34,7 +34,7 @@ export default function TrendingRow() {
         <div className="card-row" role="list" aria-label="Trending fandoms">
           {visibleItems.map((item, index) => (
             <Card className="trending-card filter-card" key={item.id} role="listitem" data-reveal>
-              <GradientThumb emoji={item.emoji} gradient={item.gradient}>
+              <GradientThumb image={item.image} alt={item.title} gradient={item.gradient}>
                 <span className="rank-badge">#{index + 1}</span>
               </GradientThumb>
               <div className="card-body">

@@ -1,10 +1,66 @@
 [
-  { "id": "solo-hunter-chronicles", "title": "Solo Hunter Chronicles", "categoryId": "anime", "emoji": "⚔️", "rating": 4.8, "gradient": ["#7c3aed", "#ec4899"] },
-  { "id": "star-rail-drifters", "title": "Star Rail Drifters", "categoryId": "gaming", "emoji": "🚀", "rating": 4.6, "gradient": ["#2563eb", "#22d3ee"] },
-  { "id": "last-ember", "title": "Last Ember", "categoryId": "movies", "emoji": "🔥", "rating": 4.9, "gradient": ["#dc2626", "#f59e0b"] },
-  { "id": "strange-signals", "title": "Strange Signals", "categoryId": "tv", "emoji": "📡", "rating": 4.7, "gradient": ["#0d9488", "#6366f1"] },
-  { "id": "midnight-rookies", "title": "Midnight Rookies", "categoryId": "kpop", "emoji": "🌟", "rating": 4.5, "gradient": ["#c026d3", "#fb7185"] },
-  { "id": "panel-break", "title": "Panel Break", "categoryId": "comics", "emoji": "💬", "rating": 4.4, "gradient": ["#ea580c", "#facc15"] },
-  { "id": "paper-moon-diaries", "title": "Paper Moon Diaries", "categoryId": "manga", "emoji": "🌙", "rating": 4.6, "gradient": ["#0f766e", "#38bdf8"] },
-  { "id": "pixel-garden", "title": "Pixel Garden", "categoryId": "gaming", "emoji": "🌱", "rating": 4.7, "gradient": ["#16a34a", "#84cc16"] }
+  {
+    "id": "beyond-journey",
+    "title": "Frieren: Beyond Journeys End",
+    "categoryId": "anime",
+    "image": "/assets/image/ff.jfif",
+    "rating": 4.8,
+    "gradient": ["#7c3aed", "#ec4899"]
+  },
+  {
+    "id": "codm",
+    "title": "Call Of Duty Mobile",
+    "categoryId": "gaming",
+    "image": "/assets/image/codm.jfif",
+    "rating": 4.6,
+    "gradient": ["#2563eb", "#22d3ee"]
+  },
+  {
+    "id": "project-mary",
+    "title": "Project Hail Mary",
+    "categoryId": "movies",
+    "image": "/assets/image/mary.jfif",
+    "rating": 4.9,
+    "gradient": ["#dc2626", "#f59e0b"]
+  },
+  {
+    "id": "invincible",
+    "title": "Invincible",
+    "categoryId": "tv",
+    "image": "/assets/image/mark.jfif",
+    "rating": 4.7,
+    "gradient": ["#0d9488", "#6366f1"]
+  },
+  {
+    "id": "twelve",
+    "title": "Twelve Is Midnight",
+    "categoryId": "kpop",
+    "image": "/assets/image/12.jfif",
+    "rating": 4.5,
+    "gradient": ["#c026d3", "#fb7185"]
+  },
+  {
+    "id": "spider-man",
+    "title": "SpiderMan",
+    "categoryId": "comics",
+    "image": "/assets/image/spidey.jfif",
+    "rating": 4.4,
+    "gradient": ["#ea580c", "#facc15"]
+  },
+  {
+    "id": "kusuriya",
+    "title": "The Apothecary Diaries",
+    "categoryId": "manga",
+    "image": "/assets/image/mao.jfif",
+    "rating": 4.6,
+    "gradient": ["#0f766e", "#38bdf8"]
+  },
+  {
+    "id": "bloodstrike",
+    "title": "Blood Strike",
+    "categoryId": "gaming",
+    "image": "/assets/image/bs.jfif",
+    "rating": 4.7,
+    "gradient": ["#16a34a", "#84cc16"]
+  }
 ]
