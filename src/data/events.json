@@ -1,5 +1,23 @@
 [
-  { "id": "event-anime-expo", "day": "05", "month": "Nov", "title": "Anime Expo Lagos", "subtitle": "Convention · Lagos" },
-  { "id": "event-game-night", "day": "18", "month": "Nov", "title": "Indie Game Night", "subtitle": "Community watch party · Online" },
-  { "id": "event-kpop-meetup", "day": "02", "month": "Dec", "title": "K-Pop Fan Meetup", "subtitle": "Community meetup · Abuja" }
+  {
+    "id": "event-anime-expo",
+    "day": "05",
+    "month": "Nov",
+    "title": "Anime Expo Lagos",
+    "subtitle": "Convention · Lagos"
+  },
+  {
+    "id": "event-game-night",
+    "day": "18",
+    "month": "Nov",
+    "title": "Indie Game Night",
+    "subtitle": "Community watch party · Online"
+  },
+  {
+    "id": "event-kpop-meetup",
+    "day": "02",
+    "month": "Dec",
+    "title": "K-Pop Fan Meetup",
+    "subtitle": "Community meetup · Abuja"
+  }
 ]

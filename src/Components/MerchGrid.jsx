@@ -26,7 +26,7 @@ export default function MerchGrid() {
         <div className="card-row merch-row" role="list" aria-label="Featured merchandise">
           {visibleProducts.map((product) => (
             <Card className="merch-card" key={product.id} role="listitem" data-reveal>
-              <GradientThumb emoji={product.emoji} gradient={product.gradient} className="merch-thumb" />
+              <GradientThumb image={product.image} gradient={product.gradient} className="merch-thumb" />
               <div className="card-body">
                 <h3>{product.name}</h3>
                 <div className="price-row">

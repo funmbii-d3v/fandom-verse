@@ -4,17 +4,26 @@ import trending from "../data/trending.json";
 import site from "../data/site.json";
 import { useAppContext } from "../context/AppContext.jsx";
 import useScrollReveal from "../hooks/useScrollReveal.js";
-import { getCategoryName, matchesSearch } from "../utils/content.js";
+import { getCategoryName, matchesSearch} from "../utils/content.js";
 import Card, { GradientThumb } from "./Card.jsx";
 import SectionHeading from "./SectionHeading.jsx";
 
+function uniqueByCategory(items) {
+  const seen = new Set();
+  return items.filter((item) => {
+    if (seen.has(item.categoryId)) return false;
+    seen.add(item.categoryId);
+    return true;
+  });
+}
 export default function TrendingRow() {
   const sectionRef = useRef(null);
   const { activeCategory, searchQuery } = useAppContext();
-  const visibleItems = trending.filter((item) => {
+  const filteredItems = trending.filter((item) => {
     const matchesCategory = activeCategory === "all" || item.categoryId === activeCategory;
     return matchesCategory && matchesSearch(item, searchQuery);
   });
+  const visibleItems= activeCategory=== "all" ? uniqueByCategory(filteredItems): filteredItems 
   const selectedCategory = categories.find((category) => category.id === activeCategory);
   const breadcrumb = selectedCategory && activeCategory !== "all"
     ? `Home › ${selectedCategory.name}`

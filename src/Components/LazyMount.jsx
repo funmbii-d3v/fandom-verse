@@ -1,5 +1,4 @@
 import { useEffect, useRef, useState } from "react";
-
 export default function LazyMount({ children, minHeight = 320, className = "", id }) {
   const hostRef = useRef(null);
   const [shouldRender, setShouldRender] = useState(false);

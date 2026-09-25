@@ -2,26 +2,98 @@
   "tabs": [
     { "id": "videos", "label": "Videos" },
     { "id": "gallery", "label": "Gallery" },
-    { "id": "audio", "label": "Audio clips" }
+    { "id": "all", "label": "All" }
   ],
   "items": {
     "videos": [
-      { "id": "season-three-trailer", "title": "Season Three: First Look", "categoryId": "anime", "emoji": "▶️", "gradient": ["#7c3aed", "#ff8a2b"] },
-      { "id": "gameplay-reveal", "title": "Pixel Garden Gameplay Reveal", "categoryId": "gaming", "emoji": "🎮", "gradient": ["#2563eb", "#ffb347"] },
-      { "id": "official-teaser", "title": "Last Ember — Official Teaser", "categoryId": "movies", "emoji": "🎬", "gradient": ["#dc2626", "#ffb347"] },
-      { "id": "signal-trailer", "title": "Strange Signals: New Trailer", "categoryId": "tv", "emoji": "📡", "gradient": ["#0d9488", "#6366f1"] }
+      {
+        "id": "monthly",
+        "title": "Monthly Girls Nozaki-kun",
+        "image": "/assets/image/monthly.jfif",
+        "categoryId": "anime",
+        "gradient": ["#7c3aed", "#ff8a2b"]
+      },
+      {
+        "id": "need2speed",
+        "title": "Need For Speed",
+        "image": "/assets/image/need2speed.jfif",
+        "categoryId": "gaming",
+        "gradient": ["#2563eb", "#ffb347"]
+      },
+      {
+        "id": "drama",
+        "title": "The Drama",
+        "image": "/assets/image/drama.jfif",
+        "categoryId": "movies",
+        "gradient": ["#dc2626", "#ffb347"]
+      },
+      {
+        "id": "gentle",
+        "title": "The Gentleman",
+        "image": "/assets/image/gentlemen.jfif",
+        "categoryId": "tv",
+        "gradient": ["#0d9488", "#6366f1"]
+      }
     ],
     "gallery": [
-      { "id": "fan-art-wall", "title": "Community Fan Art Wall", "categoryId": "anime", "emoji": "🖼️", "gradient": ["#c084fc", "#ff3d8b"] },
-      { "id": "concept-sketches", "title": "Pixel Garden Concept Sketches", "categoryId": "gaming", "emoji": "✏️", "gradient": ["#0d9488", "#3b82f6"] },
-      { "id": "set-moments", "title": "Last Ember: Set Moments", "categoryId": "movies", "emoji": "🎥", "gradient": ["#dc2626", "#f59e0b"] },
-      { "id": "cover-gallery", "title": "Panel Break Cover Gallery", "categoryId": "comics", "emoji": "📚", "gradient": ["#ea580c", "#facc15"] }
+      {
+        "id": "fan-art-wall",
+        "title": "Community Fan Art Wall",
+        "categoryId": "anime",
+        "image": "/assets/image/fanart.jfif",
+        "gradient": ["#c084fc", "#ff3d8b"]
+      },
+      {
+        "id": "concept-sketches",
+        "title": "Pixel Garden Concept Sketches",
+        "categoryId": "gaming",
+        "image": "/assets/image/pixel.jfif",
+        "gradient": ["#0d9488", "#3b82f6"]
+      },
+      {
+        "id": "set-moments",
+        "title": "Last Ember: Set Moments",
+        "categoryId": "movies",
+        "image": "/assets/image/ember.jfif",
+        "gradient": ["#dc2626", "#f59e0b"]
+      },
+      {
+        "id": "cover-gallery",
+        "title": "Panel Break Cover Gallery",
+        "categoryId": "comics",
+        "image": "/assets/image/comic.jfif",
+        "gradient": ["#ea580c", "#facc15"]
+      }
     ],
-    "audio": [
-      { "id": "fandom-podcast", "title": "The Fandom Desk — Episode 12", "categoryId": "manga", "emoji": "🎧", "gradient": ["#7c3aed", "#ff8a2b"] },
-      { "id": "soundtrack-sampler", "title": "Starfall Soundtrack Sampler", "categoryId": "anime", "emoji": "🎼", "gradient": ["#c026d3", "#f59e0b"] },
-      { "id": "creator-interview", "title": "Indie Creator Interview", "categoryId": "gaming", "emoji": "🎙️", "gradient": ["#2563eb", "#22d3ee"] },
-      { "id": "behind-the-beat", "title": "Behind the Beat: Midnight Rookies", "categoryId": "kpop", "emoji": "🎤", "gradient": ["#c026d3", "#fb7185"] }
+    "all": [
+      {
+        "id": "monthly",
+        "title": "Monthly Girls Nozaki-kun",
+        "image": "/assets/image/monthly.jfif",
+        "categoryId": "anime",
+        "gradient": ["#7c3aed", "#ff8a2b"]
+      },
+      {
+        "id": "need2speed",
+        "title": "Need For Speed",
+        "image": "/assets/image/need2speed.jfif",
+        "categoryId": "gaming",
+        "gradient": ["#2563eb", "#ffb347"]
+      },
+      {
+        "id": "drama",
+        "title": "The Drama",
+        "image": "/assets/image/drama.jfif",
+        "categoryId": "movies",
+        "gradient": ["#dc2626", "#ffb347"]
+      },
+      {
+        "id": "gentle",
+        "title": "The Gentleman",
+        "image": "/assets/image/gentlemen.jfif",
+        "categoryId": "tv",
+        "gradient": ["#0d9488", "#6366f1"]
+      }
     ]
   }
 }

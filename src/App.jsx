@@ -43,7 +43,6 @@ export default function App() {
     try {
       window.localStorage.setItem("fandomverse-bookmarks", JSON.stringify(bookmarks));
     } catch {
-      // Local storage may be unavailable in a private or restricted browsing context.
     }
   }, [bookmarks]);
 
@@ -51,7 +50,6 @@ export default function App() {
     try {
       window.sessionStorage.setItem("fandomverse-bookmark-notes", JSON.stringify(bookmarkNotes));
     } catch {
-      // Session storage may be unavailable in a private or restricted browsing context.
     }
   }, [bookmarkNotes]);
 

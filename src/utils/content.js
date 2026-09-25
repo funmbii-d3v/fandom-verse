@@ -20,11 +20,18 @@ export function matchesSearch(item, query) {
 
   return searchableText.includes(normalizedQuery);
 }
-
+export function uniqueByCategory(items) {
+  const seen = new Set();
+  return items.filter((item) => {
+    if (seen.has(item.categoryId)) return false;
+    seen.add(item.categoryId);
+    return true;
+  });
+}
 export function formatMoney(amount) {
-  return new Intl.NumberFormat("en-US", {
+  return new Intl.NumberFormat("en-NG", {
     style: "currency",
-    currency: "USD",
+    currency: "NGN",
     minimumFractionDigits: 2,
   }).format(amount);
 }

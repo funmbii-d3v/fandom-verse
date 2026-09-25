@@ -11,7 +11,7 @@
   ],
   "hero": {
     "headline": "What will you explore today?",
-    "subtitle": "News, trailers, characters, events and merch for every fandom you love, all in one portal.",
+    "subtitle": "News, trailers, characters, events and merch for every fandom you love, all in one place.",
     "searchPlaceholder": "Try \"Frieren\" or \"K-Pop tour\"",
     "searchButton": "Search",
     "stickers": ["🎮", "⭐", "🎤", "📖", "💥"]
@@ -26,8 +26,6 @@
     "merchandise": "Featured merchandise"
   },
   "actions": {
-    "signUp": "Sign up",
-    "logIn": "Log in",
     "viewAll": "View all",
     "add": "Add",
     "note": "Note",
@@ -36,7 +34,7 @@
     "clearSearch": "Clear search"
   },
   "search": {
-    "globalPlaceholder": "Search anime, games, movies, characters...",
+    "globalPlaceholder": "Search anime, games, movies, manga, characters...",
     "helper": "Search across every fandom, story, release and product."
   },
   "emptyStates": {

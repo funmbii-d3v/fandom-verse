@@ -62,5 +62,117 @@
     "image": "/assets/image/bs.jfif",
     "rating": 4.7,
     "gradient": ["#16a34a", "#84cc16"]
+  },
+  {
+    "id":"aot",
+    "title": "Attack On Titan",
+    "categoryId": "anime",
+    "image": "/assets/image/aot.jfif",
+    "rating": 4.5,
+    "gradient": ""
+  },
+    {
+    "id":"queen",
+    "title": "The Queen's Gambit",
+    "categoryId": "tv",
+    "image": "/assets/image/chess.jfif",
+    "rating": 4.0,
+    "gradient": ""
+  },
+    {
+    "id":"10",
+    "title": "10 Things I Hate About You",
+    "categoryId": "movies",
+    "image": "/assets/image/10.gif",
+    "rating": 5.0,
+    "gradient": ""
+  },
+    {
+    "id":"last-of-us",
+    "title": "The Last Of Us",
+    "categoryId": "gaming",
+    "image": "/assets/image/tlou.jfif",
+    "rating": 3.9,
+    "gradient": ""
+  },
+    {
+    "id":"avatar",
+    "title": "Avatar: The Last Of Us",
+    "categoryId": "comics",
+    "image": "/assets/image/avatar.jfif",
+    "rating": 4.2,
+    "gradient": ""
+  },
+    {
+    "id":"batman",
+    "title": "BatMan",
+    "categoryId": "comics",
+    "image": "/assets/image/bman.jfif",
+    "rating": 4.9,
+    "gradient": ""
+  },
+    {
+    "id":"bnd",
+    "title": "SpiderMan Brand New Day",
+    "categoryId": "movies",
+    "image": "/assets/image/bnd.jfif",
+    "rating": 4.7,
+    "gradient": ""
+  },
+    {
+    "id":"gg",
+    "title": "Ginny and Georgia",
+    "categoryId": "tv",
+    "image": "/assets/image/gg.jfif",
+    "rating": 4.7,
+    "gradient": ""
+  },
+  {
+    "id":"guts",
+    "title": "Berserk",
+    "categoryId": "manga",
+    "image": "/assets/image/guts.jfif",
+    "rating": 4.5,
+    "gradient": ""
+  },
+  {
+    "id":"mine",
+    "title": "MineCraft",
+    "categoryId": "gaming",
+    "image": "/assets/image/mine.jfif",
+    "rating": 3.9,
+    "gradient": ""
+  },
+  {
+    "id":"obs",
+    "title": "Obsession",
+    "categoryId": "movies",
+    "image": "/assets/image/OBSESSION.jfif",
+    "rating": 4.1,
+    "gradient": ""
+  },
+  {
+    "id":"skip",
+    "title": "Skip and Loafer",
+    "categoryId": "anime",
+    "image": "/assets/image/skip.jfif",
+    "rating": 4.9,
+    "gradient": ""
+  },
+  {
+    "id":"you",
+    "title": "You",
+    "categoryId": "tv",
+    "image": "/assets/image/you.jfif",
+    "rating": 4.3,
+    "gradient": ""
+  },
+  {
+    "id":"bts",
+    "title": "BTS",
+    "categoryId": "kpop",
+    "image": "/assets/image/BTS.jfif",
+    "rating": 3.8,
+    "gradient": ""
   }
 ]

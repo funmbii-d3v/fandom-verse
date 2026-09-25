@@ -9,7 +9,6 @@ const MASCOT = "🤖";
 const TYPING_DELAY = 800;
 const GREETING = { id: 0, role: "bot", text: chatbot.greeting };
 
-// Pick the FAQ whose keywords match the typed text best
 function findFaq(text) {
   const t = text.toLowerCase();
   let best = null;
@@ -40,7 +39,6 @@ export default function ChatBot() {
   const [answered, setAnswered] = useState(false);
   const prefersReducedMotion = usePrefersReducedMotion();
 
-  // GSAP open/close timeline
   useGSAP(
     () => {
       if (prefersReducedMotion) return undefined;

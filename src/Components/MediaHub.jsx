@@ -71,7 +71,8 @@ export default function MediaHub() {
             const isPlaying = playingId === item.id;
             return (
               <Card className="media-card" key={item.id} data-reveal>
-                <GradientThumb emoji={item.emoji} gradient={item.gradient} className="media-thumb">
+                <GradientThumb image={item.image} gradient={item.gradient} className="media-thumb">
+                  {activeTab === "videos" && (
                   <button
                     className={`play-button${isPlaying ? " is-playing" : ""}`}
                     type="button"
@@ -81,6 +82,7 @@ export default function MediaHub() {
                   >
                     <span aria-hidden="true">{isPlaying ? "Ⅱ" : "▶"}</span>
                   </button>
+                )}
                 </GradientThumb>
                 <div className="card-body">
                   <h3>{item.title}</h3>

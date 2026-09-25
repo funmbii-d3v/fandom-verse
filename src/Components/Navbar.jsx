@@ -74,7 +74,7 @@ export default function Navbar() {
               <MenuIcon open={menuOpen} />
             </button>
             <a className="brand" href="#home" onClick={closeMenu} aria-label={`${site.brand} home`}>
-              <span className="brand-mark" aria-hidden="true">✦</span>
+              <span className="brand-mark" aria-hidden="true">✪</span>
               <span className="brand-name">{site.brand}</span>
             </a>
           </div>
@@ -87,10 +87,6 @@ export default function Navbar() {
             {site.navigation.map((link) => (
               <a href={link.href} key={link.href} onClick={closeMenu}>{link.label}</a>
             ))}
-            <div className="mobile-auth">
-              <button className="signup-button" type="button">{site.actions.signUp}</button>
-              <button className="login-button" type="button">{site.actions.logIn}</button>
-            </div>
           </nav>
 
           <div className="nav-actions">
@@ -133,10 +129,6 @@ export default function Navbar() {
                 <span className="count-badge" aria-hidden="true">{cartCount}</span>
               </button>
               <CartPopover open={cartOpen} onClose={() => setCartOpen(false)} />
-            </div>
-            <div className="desktop-auth">
-              <button className="signup-button" type="button">{site.actions.signUp}</button>
-              <button className="login-button" type="button">{site.actions.logIn}</button>
             </div>
           </div>
         </div>
