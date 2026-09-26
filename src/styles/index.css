@@ -1922,12 +1922,10 @@ h3,
   text-decoration: none;
 }
 
-/* ── Modal panel overrides (team modal content) ── */
 .modal-panel {
   width: min(92vw, 560px);
   max-height: min(88vh, 640px);
   padding: 1.5rem 1.25rem 1.25rem;
-  overflow: hidden;
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
