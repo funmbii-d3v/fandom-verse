@@ -1,6 +1,12 @@
+import { useState } from "react";
 import site from "../data/site.json";
+import Modal from "./Modal"; // adjust path if needed
 
 export default function AboutContact() {
+  const [teamOpen, setTeamOpen] = useState(false);
+  const teamName = site.team ?? "The FandomVerse team";
+  const members = site.members ?? [];
+  const email= site.email ?? [];
   return (
     <section className="about-contact" aria-label="About and contact">
       <div className="two-col-panels">
@@ -16,12 +22,57 @@ export default function AboutContact() {
         <article className="panel contact-panel" id="contact" aria-labelledby="contact-heading">
           <h2 id="contact-heading">Contact us</h2>
           <ul className="contact-list">
-            <li><strong>Email:</strong> <a href="mailto:contact.fandomverse@gmail.com">contact.fandomverse@gmail.com</a></li>
-            <li><strong>Location:</strong> Lagos, Nigeria</li>
-            <li><strong>Team:</strong> {site.team ?? "The FandomVerse team"}</li>
+            <li>
+              <strong>Email:</strong>{" "}
+              <a href="mailto:contact.fandomverse@gmail.com">
+                contact.fandomverse@gmail.com
+              </a>
+            </li>
+            <li>
+              <strong>Location:</strong>{" "}
+              <a href="https://maps.app.goo.gl/RhXfyFfbbiMTMmqq5" target="0">Lagos, Nigeria</a>
+            </li>
+            <li>
+              <strong>Team:</strong>{" "}
+              <button
+                type="button"
+                className="team-name-btn"
+                onClick={() => setTeamOpen(true)}
+                aria-haspopup="dialog"
+                aria-expanded={teamOpen}
+              >
+                {teamName}
+              </button>
+            </li>
           </ul>
         </article>
       </div>
+
+      <Modal
+        isOpen={teamOpen}
+        onClose={() => setTeamOpen(false)}
+        labelledBy="team-modal-heading"
+      >
+        <h2 id="team-modal-heading" className="team-modal-title">
+          {teamName}
+        </h2>
+        <p className="team-modal-subtitle">Project team · TechWiz 7</p>
+
+        <div className="team-cards">
+          {members.map((member) => (
+            <article key={member.studentID} className="team-card">
+              <div className="team-card-avatar" aria-hidden="true">
+                {member.name.charAt(0)}
+              </div>
+              <div className="team-card-body">
+                <h3 className="team-card-name">{member.name}</h3>
+                <p className="team-card-id">{member.studentID}</p>
+                <p className="team-card-id">{member.email}</p>
+              </div>
+            </article>
+          ))}
+        </div>
+      </Modal>
     </section>
   );
 }

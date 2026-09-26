@@ -61,5 +61,13 @@
     "empty": "Your cart is empty. Add a little fandom joy ✨.",
     "total": "Estimated total",
     "disclaimer": "Demo cart only — no checkout or payment."
-  }
+  },
+  "team":"Team Acers",
+  "members": [
+    {"name": "Adewemimo Adefunmbi", "studentID": "ID1659263", "email": "adefunmbiadewemimo@gmail.com"},
+    {"name": "Adibeli Rapheal", "studentID": "ID1730191"},
+    {"name": "Maduakor Donald", "studentID": "ID1739381"},
+    {"name": "Juluis Okokon", "studentID": "ID1739362"},
+    {"name": "Nzuebubechukwu Answer", "studentID": "ID1726694"}
+  ]  
 }
