@@ -5,54 +5,68 @@
     "priceLabel": "₦22,000",
     "image": "/assets/image/super.jpeg",
     "cartPrice": 22000,
-    "categoryId": "movies"
+    "categoryId": "movies",
+    "gradient": ["#dc2626", "#2563eb"],
+    "description": "A breathable compression shirt featuring the iconic Superman shield, built for training days or just repping the House of El under a jacket."
   },
   {
     "id": "madrid",
-    "name": "Real Madrid Dragon imprint",
-    "priceLabel": "₦30000",
+    "name": "Real Madrid Dragon Imprint",
+    "priceLabel": "₦30,000",
     "image": "/assets/image/madrid.jpeg",
     "cartPrice": 30000,
-    "categoryId": "gaming"
+    "categoryId": "gaming",
+    "gradient": ["#f59e0b", "#dc2626"],
+    "description": "A crossover print blending Real Madrid's crest with a fantasy dragon motif, for fans who live at the intersection of football and fandom culture."
   },
   {
     "id": "chibi",
     "name": "Batman and Catgirl Chibi Keychain",
-    "priceLabel": "₦5000",
+    "priceLabel": "₦5,000",
     "image": "/assets/image/chibi.jpeg",
     "cartPrice": 5000,
-    "categoryId": "comics"
+    "categoryId": "comics",
+    "gradient": ["#1f1235", "#7c3aed"],
+    "description": "A pair of hand-painted chibi keychains featuring Batman and Catgirl in a playful, rounded art style. Clip them to a bag, keys, or backpack."
   },
   {
     "id": "green",
     "name": "Green Lantern",
-    "priceLabel": "₦4000",
+    "priceLabel": "₦4,000",
     "image": "/assets/image/green.jpeg",
     "cartPrice": 4000,
-    "categoryId": "comics"
+    "categoryId": "comics",
+    "gradient": ["#16a34a", "#0d9488"],
+    "description": "A collectible Green Lantern figure capturing the Corps' signature ring-powered glow, perfect for a shelf display or desk setup."
   },
   {
     "id": "spinal",
-    "name": "Spinal compression shirt",
-    "priceLabel": "₦15000",
+    "name": "Spinal Compression Shirt",
+    "priceLabel": "₦15,000",
     "image": "/assets/image/spinal.jpeg",
     "cartPrice": 15000,
-    "categoryId": "movies"
+    "categoryId": "movies",
+    "gradient": ["#0f172a", "#6366f1"],
+    "description": "A sleek compression shirt inspired by Spinal's signature look, designed for comfort during workouts or everyday wear."
   },
   {
     "id": "zoro",
     "name": "One Piece Zoro",
-    "priceLabel": "₦23000",
+    "priceLabel": "₦23,000",
     "image": "/assets/image/zoro.jpeg",
     "cartPrice": 23000,
-    "categoryId": "anime"
+    "categoryId": "anime",
+    "gradient": ["#16a34a", "#1f2937"],
+    "description": "A detailed figure of the three-sword-style swordsman himself, capturing Zoro mid-stance with his signature intensity."
   },
   {
     "id": "kpop",
     "name": "Stray Kids Backpack",
-    "priceLabel": "₦10000",
+    "priceLabel": "₦10,000",
     "image": "/assets/image/kids.jfif",
     "cartPrice": 10000,
-    "categoryId": "kpop"
+    "categoryId": "kpop",
+    "gradient": ["#c026d3", "#fb7185"],
+    "description": "A durable, everyday backpack featuring Stray Kids branding, with enough room for a laptop, notebooks, and merch you'll inevitably pick up along the way."
   }
 ]

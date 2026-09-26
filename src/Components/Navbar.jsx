@@ -87,6 +87,10 @@ export default function Navbar() {
             {site.navigation.map((link) => (
               <a href={link.href} key={link.href} onClick={closeMenu}>{link.label}</a>
             ))}
+            <div className="mobile-auth">
+              <button className="signup-button" type="button">{site.actions.signUp}</button>
+              <button className="login-button" type="button">{site.actions.logIn}</button>
+            </div>
           </nav>
 
           <div className="nav-actions">
@@ -129,6 +133,10 @@ export default function Navbar() {
                 <span className="count-badge" aria-hidden="true">{cartCount}</span>
               </button>
               <CartPopover open={cartOpen} onClose={() => setCartOpen(false)} />
+            </div>
+            <div className="desktop-auth">
+              <button className="signup-button" type="button">{site.actions.signUp}</button>
+              <button className="login-button" type="button">{site.actions.logIn}</button>
             </div>
           </div>
         </div>

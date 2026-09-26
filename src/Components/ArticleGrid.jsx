@@ -8,8 +8,10 @@ import { getCategoryName, matchesSearch } from "../utils/content.js";
 import Card, { GradientThumb } from "./Card.jsx";
 import SectionHeading from "./SectionHeading.jsx";
 import { BookmarkIcon } from "./Icon.jsx";
+import ArticleDetail from "./ArticleDetail.jsx";
 
 export default function ArticleGrid() {
+  const [openArticle, setOpenArticle] = useState(null);
   const sectionRef = useRef(null);
   const [openNotes, setOpenNotes] = useState(() => new Set());
   const {
@@ -54,12 +56,21 @@ export default function ArticleGrid() {
             const saved = bookmarks.includes(article.id);
             const noteOpen = openNotes.has(article.id);
             return (
-              <Card className="article-card filter-card" key={article.id} data-reveal>
+              <Card
+                className="article-card filter-card"
+                key={article.id}
+                data-reveal
+                onClick={() => setOpenArticle(article)}
+                style={{ cursor: "pointer" }}
+              >
                 <GradientThumb image={article.image} gradient={article.gradient} className="article-thumb">
                   <button
                     className={`bookmark-toggle${saved ? " saved" : ""}`}
                     type="button"
-                    onClick={() => toggleBookmark(article.id)}
+                    onClick={(event) => {
+                      event.stopPropagation();
+                      toggleBookmark(article.id);
+                    }}
                     aria-label={`${saved ? "Remove bookmark for" : "Bookmark"} ${article.title}`}
                     aria-pressed={saved}
                   >
@@ -74,7 +85,10 @@ export default function ArticleGrid() {
                     <button
                       className="note-toggle"
                       type="button"
-                      onClick={() => toggleNote(article.id)}
+                      onClick={(event) => {
+                        event.stopPropagation();
+                        toggleNote(article.id);
+                      }}
                       disabled={!saved}
                       aria-expanded={noteOpen && saved}
                       aria-controls={`note-${article.id}`}
@@ -84,7 +98,7 @@ export default function ArticleGrid() {
                     </button>
                   </div>
                   {saved && noteOpen ? (
-                    <div className="note-panel" id={`note-${article.id}`}>
+                    <div className="note-panel" id={`note-${article.id}`} onClick={(event) => event.stopPropagation()}>
                       <label className="sr-only" htmlFor={`note-input-${article.id}`}>Session note for {article.title}</label>
                       <textarea
                         id={`note-input-${article.id}`}
@@ -108,6 +122,12 @@ export default function ArticleGrid() {
             : site.emptyStates.articles}
         </div>
       )}
+      <ArticleDetail
+        article={openArticle}
+        related={articles.filter((a) => a.categoryId === openArticle?.categoryId && a.id !== openArticle?.id).slice(0, 3)}
+        onClose={() => setOpenArticle(null)}
+        onSelectRelated={(item) => setOpenArticle(item)}
+      />
     </section>
   );
 }

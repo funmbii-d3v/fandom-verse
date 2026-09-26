@@ -23,9 +23,12 @@
     "characters": "Popular characters",
     "releases": "Upcoming releases",
     "events": "Event highlights",
-    "merchandise": "Featured merchandise"
+    "merchandise": "Featured merchandise",
+    "trailers": "Trailers"
   },
   "actions": {
+    "signUp": "Sign up",
+    "logIn": "Log in",
     "viewAll": "View all",
     "add": "Add",
     "note": "Note",
@@ -44,7 +47,8 @@
     "characters": "No characters match that search. Try another name or series.",
     "releases": "No upcoming releases match that search.",
     "events": "No event highlights match that search.",
-    "merchandise": "No merchandise matches that search. Try another keyword."
+    "merchandise": "No merchandise matches that search. Try another keyword.",
+    "trailers": "No trailers available for that search. Try another series or name."
   },
   "footer": {
     "about": "A fan portal for the stories, worlds and communities you love. Made for fandom discovery.",

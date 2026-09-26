@@ -1,0 +1,34 @@
+[
+  {
+    "id": "demon-slayer",
+    "title": "Demon Slayer: Infinity Castle Arc — Official Teaser",
+    "categoryId": "anime",
+    "status": "upcoming",
+    "youtubeId": "x7uLutVRBfI",
+    "image": "/assets/image/ds.jfif"
+  },
+  {
+    "id": "codm-season-trailer",
+    "title": "Call Of Duty Mobile — Season Trailer",
+    "categoryId": "gaming",
+    "status": "released",
+    "youtubeId": "mbJ5-LozpwU",
+    "image": "/assets/image/codm.jfif"
+  },
+  {
+    "id": "avengers-doomsday",
+    "title": "Avengers: Doomsday — Official Trailer",
+    "categoryId": "movies",
+    "status": "upcoming",
+    "youtubeId": "irVNGjRFZGk",
+    "image": "/assets/image/doomsday.jfif"
+  },
+  {
+    "id": "ginny-georgia-s4",
+    "title": "Ginny & Georgia — Season 4 Trailer",
+    "categoryId": "tv",
+    "status": "upcoming",
+    "youtubeId": "bIYfPg54AEo",
+    "image": "/assets/image/gg1.jfif"
+  }
+]

@@ -5,7 +5,12 @@
     "categoryId": "anime",
     "readTime": "6 min read",
     "image": "/assets/image/1.jfif",
-    "gradient": ["#7c3aed", "#ec4899"]
+    "gradient": ["#7c3aed", "#ec4899"],
+    "body": [
+      "Two decades after it first aired, Nana continues to rack up new fans discovering it for the first time, and old fans returning to it with fresh eyes.",
+      "Its unflinching look at friendship, ambition, and heartbreak set it apart from the shonen-dominated anime landscape of its era, and that honesty still lands today.",
+      "Whether it's the soundtrack, the fashion, or Nana Osaki's unapologetic edge, the series keeps finding new audiences one recommendation at a time."
+    ]
   },
   {
     "id": "games",
@@ -13,7 +18,12 @@
     "categoryId": "gaming",
     "readTime": "5 min read",
     "image": "/assets/image/fc27.jfif",
-    "gradient": ["#0d9488", "#3b82f6"]
+    "gradient": ["#0d9488", "#3b82f6"],
+    "body": [
+      "Every new FC release, one name dominates the conversation before the game even launches: Kylian Mbappé.",
+      "This year's cover star comes with new pace stats and a rebuilt dribbling engine that's already splitting opinion among competitive players.",
+      "Whether you love or hate the meta he creates, there's no denying his presence shapes how the whole community plays the game."
+    ]
   },
   {
     "id": "kpop-groups",
@@ -21,7 +31,12 @@
     "categoryId": "kpop",
     "readTime": "4 min read",
     "image": "/assets/image/BTS.jfif",
-    "gradient": ["#c026d3", "#f59e0b"]
+    "gradient": ["#c026d3", "#f59e0b"],
+    "body": [
+      "After years apart on individual projects and service commitments, BTS's full regrouping in 2026 has sent ARMY into a frenzy.",
+      "Early previews suggest a sound that blends each member's solo growth with the group chemistry that made them global icons in the first place.",
+      "Ticket demand for the reunion tour has already broken records before a single date was confirmed."
+    ]
   },
   {
     "id": "odyessy",
@@ -29,7 +44,12 @@
     "categoryId": "movies",
     "readTime": "7 min read",
     "image": "/assets/image/odysey.jfif",
-    "gradient": ["#dc2626", "#f97316"]
+    "gradient": ["#dc2626", "#f97316"],
+    "body": [
+      "Christopher Nolan's take on Homer's epic assembled one of the most stacked casts in recent memory.",
+      "From seasoned veterans to breakout newcomers, every role was cast with an eye for gravity and screen presence.",
+      "The result is a film that critics are already calling a career-defining moment for more than one actor on the call sheet."
+    ]
   },
   {
     "id": "arcane",
@@ -37,7 +57,12 @@
     "categoryId": "tv",
     "readTime": "5 min read",
     "image": "/assets/image/arcane.jfif",
-    "gradient": ["#0f766e", "#6366f1"]
+    "gradient": ["#0f766e", "#6366f1"],
+    "body": [
+      "Two years since its finale aired, Arcane's fandom shows no signs of slowing down.",
+      "Its animation style redefined what a game adaptation could look like, and its willingness to let characters suffer real consequences kept audiences talking long after the credits rolled.",
+      "Fan theories, art, and rewatch threads still surface daily, cementing its place as one of the most influential animated series of its generation."
+    ]
   },
   {
     "id": "comic",
@@ -45,7 +70,12 @@
     "categoryId": "comics",
     "readTime": "4 min read",
     "image": "/assets/image/iyanu.jfif",
-    "gradient": ["#ea580c", "#facc15"]
+    "gradient": ["#ea580c", "#facc15"],
+    "body": [
+      "Iyanu has become a landmark moment for African representation in comics, drawing on Yoruba mythology for a story that feels both ancient and entirely new.",
+      "Its adaptation into animation introduced the character to a global audience, but the source material remains a favorite among longtime readers.",
+      "The series continues to open doors for more homegrown stories to reach international shelves."
+    ]
   },
   {
     "id": "manga",
@@ -53,6 +83,11 @@
     "categoryId": "manga",
     "readTime": "6 min read",
     "image": "/assets/image/kagur.jfif",
-    "gradient": ["#0f766e", "#38bdf8"]
+    "gradient": ["#0f766e", "#38bdf8"],
+    "body": [
+      "Kagurabachi's explosive rise has drawn comparisons to some of the biggest names in shonen history, and it's easy to see why.",
+      "Its sharp art style and brutal sword-fighting sequences have made it a favorite for panel-by-panel breakdowns online.",
+      "With each new chapter breaking engagement records, it's quickly becoming the manga to watch this generation."
+    ]
   }
 ]

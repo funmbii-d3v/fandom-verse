@@ -4,55 +4,71 @@
     "name": "Gojo Satoru",
     "series": "Jujutsu Kaisen",
     "categoryId": "anime",
-    "image": "/assets/image/gojo.jfif"
+    "image": "/assets/image/gojo.jfif",
+    "bio": "Widely regarded as the strongest jujutsu sorcerer alive, Gojo teaches at Tokyo Jujutsu High and never lets his students forget it. His Limitless technique and Six Eyes give him near-untouchable control over space itself, and he backs up every boast with results. Beneath the confidence is a fierce protectiveness for the next generation of sorcerers.",
+    "traits": ["Overpowered", "Confident", "Protective", "Strategic"]
   },
   {
     "id": "mira",
     "name": "Mira",
     "series": "K-Pop Demon Hunters",
     "categoryId": "movies",
-    "image": "/assets/image/mira.jfif"
+    "image": "/assets/image/mira.jfif",
+    "bio": "By day, Mira is a member of a chart-topping K-Pop trio. By night, she's a demon hunter carrying on a centuries-old legacy of protecting the human world through music and blades. She struggles to keep her two lives from colliding, all while hiding a secret that could unravel everything she's fought for.",
+    "traits": ["Determined", "Secretive", "Fierce", "Loyal"]
   },
   {
     "id": "ren",
     "name": "Ren",
     "series": "Nana",
     "categoryId": "manga",
-    "image": "/assets/image/ren.jfif"
+    "image": "/assets/image/ren.jfif",
+    "bio": "A guitarist with a rebellious streak and a soft spot he rarely shows, Ren chases his music career through the chaos of Tokyo's underground rock scene. His relationships are as unpredictable as his stage presence, and his past keeps catching up to the life he's trying to build.",
+    "traits": ["Rebellious", "Passionate", "Guarded", "Talented"]
   },
   {
     "id": "rose",
     "name": "Rose",
     "series": "BLACKPINK",
     "categoryId": "kpop",
-    "image": "/assets/image/rose.jfif"
+    "image": "/assets/image/rose.jfif",
+    "bio": "Known for her powerhouse vocals and effortless stage presence, Rosé has become one of the most recognizable voices in global pop. Beyond the group's discography, her solo work showcases a softer, more introspective side that's earned her fans well outside the K-Pop scene.",
+    "traits": ["Vocal powerhouse", "Charismatic", "Versatile", "Down-to-earth"]
   },
   {
     "id": "star",
     "name": "StarFire",
     "series": "Teen Titans",
     "categoryId": "comics",
-    "image": "/assets/image/star.jfif"
+    "image": "/assets/image/star.jfif",
+    "bio": "An alien princess from Tamaran with the power of flight and starbolts, Starfire brings boundless warmth and optimism to the Teen Titans. Despite the weight of the throne she left behind, she's fiercely loyal to her found family on Earth and never backs down from a fight worth having.",
+    "traits": ["Optimistic", "Powerful", "Loyal", "Fearless"]
   },
   {
     "id": "lucia",
     "name": "Lucia",
     "series": "Grand Theft Auto VI",
     "categoryId": "gaming",
-    "image": "/assets/image/lucia.jfif"
+    "image": "/assets/image/lucia.jfif",
+    "bio": "A sharp, street-smart survivor navigating the neon chaos of Vice City, Lucia is done playing by anyone else's rules. Her partnership with Jason pulls her into a spiral of heists and betrayals, but she's always three steps ahead of everyone who underestimates her.",
+    "traits": ["Street-smart", "Resourceful", "Bold", "Independent"]
   },
   {
     "id": "pomni",
     "name": "Pomni",
     "series": "The Amazing Digital Circus",
     "categoryId": "tv",
-    "image": "/assets/image/pomni.jfif"
+    "image": "/assets/image/pomni.jfif",
+    "bio": "Newly trapped in a bizarre digital circus with no memory of how she got there, Pomni is desperately searching for a way out. Her anxious energy and refusal to accept her new reality make her the emotional core of a world that's equal parts charming and unsettling.",
+    "traits": ["Anxious", "Determined", "Empathetic", "Curious"]
   },
   {
     "id": "goku",
     "name": "Son Goku",
     "series": "DragonBall",
     "categoryId": "anime",
-    "image": "/assets/image/son.jfif"
+    "image": "/assets/image/son.jfif",
+    "bio": "A Saiyan raised on Earth with an insatiable love of fighting, food, and getting stronger. Goku's relentless pursuit of his next challenge has saved the world more times than he can count, even if he'd rather be training than taking credit for it.",
+    "traits": ["Cheerful", "Relentless", "Pure-hearted", "Competitive"]
   }
 ]
