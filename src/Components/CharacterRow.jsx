@@ -21,9 +21,7 @@ export default function CharacterRow() {
         <div className="character-row" role="list" aria-label="Popular original characters">
           {visibleCharacters.map((character) => (
             <article className="character-tile" role="listitem" key={character.id} data-reveal>
-              <span className="character-avatar" style={{ "--avatar-color": character.color }} aria-hidden="true">
-                {character.emoji}
-              </span>
+              <img className= "character-avatar" src={character.image} alt={character.name} />
               <strong>{character.name}</strong>
               <small>{character.series}</small>
             </article>

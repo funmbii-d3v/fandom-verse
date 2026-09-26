@@ -5,16 +5,30 @@ import { formatMoney } from "../utils/content.js";
 
 export default function CartPopover({ open, onClose }) {
   const { cartItems, removeFromCart, cartTotal } = useAppContext();
-  const productsById = new Map(merchandise.map((product) => [product.id, product]));
+  const productsById = new Map(
+    merchandise.map((product) => [product.id, product]),
+  );
   const visibleItems = cartItems
     .map((item) => ({ ...item, product: productsById.get(item.productId) }))
     .filter((item) => item.product);
 
   return (
-    <div className="cart-popover" id="cart-summary" role="dialog" aria-label={site.cart.title} aria-hidden={!open} hidden={!open}>
+    <div
+      className="cart-popover"
+      id="cart-summary"
+      role="dialog"
+      aria-label={site.cart.title}
+      aria-hidden={!open}
+      hidden={!open}
+    >
       <div className="cart-popover-heading">
         <h2>{site.cart.title}</h2>
-        <button className="text-icon-button" type="button" onClick={onClose} aria-label={`${site.actions.close} cart`}>
+        <button
+          className="text-icon-button"
+          type="button"
+          onClick={onClose}
+          aria-label={`${site.actions.close} cart`}
+        >
           <span aria-hidden="true">×</span>
         </button>
       </div>
@@ -23,12 +37,16 @@ export default function CartPopover({ open, onClose }) {
         <ul className="cart-line-items">
           {visibleItems.map(({ product, quantity }) => (
             <li className="cart-line-item" key={product.id}>
-              <span className="cart-product-emoji" aria-hidden="true">{product.emoji}</span>
-              <span className="cart-product-copy">
+              <img className="cart-product-emoji"src={product.image} alt={product.title}/>              
+                <span className="cart-product-copy">
                 <strong>{product.name}</strong>
-                <small>{quantity} × {formatMoney(product.cartPrice)}</small>
+                <small>
+                  {quantity} × {formatMoney(product.cartPrice)}
+                </small>
               </span>
-              <span className="cart-line-price">{formatMoney(product.cartPrice * quantity)}</span>
+              <span className="cart-line-price">
+                {formatMoney(product.cartPrice * quantity)}
+              </span>
               <button
                 className="cart-remove-button"
                 type="button"

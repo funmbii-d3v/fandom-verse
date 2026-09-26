@@ -44,7 +44,7 @@ export default function Footer() {
     <footer className="site-footer" id="about">
       <div className="footer-inner">
         <div className="footer-about">
-          <a className="footer-brand" href="#home"><span aria-hidden="true">✦</span> {site.brand}</a>
+          <a className="footer-brand" href="#home"><span aria-hidden="true">✪</span> {site.brand}</a>
           <p>{site.footer.about}</p>
         </div>
 

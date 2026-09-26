@@ -5,7 +5,7 @@
     {
       "q": "🎌 Recommend me an anime",
       "keywords": ["anime", "recommend", "suggest", "watch"],
-      "a": "Try Frieren for action or Starfall Nana for drama. The Anime hub has more picks, characters and trailers! 🌸",
+      "a": "Try Frieren for action or Nana for drama. The Anime hub has more picks, characters and trailers! 🌸",
       "link": { "label": "Open Anime hub", "href": "#anime" }
     },
     {
@@ -17,7 +17,7 @@
     {
       "q": "📅 What's coming out soon?",
       "keywords": ["release", "coming", "upcoming", "soon", "calendar"],
-      "a": "Check the Upcoming Releases panel. Avengers DoomsDay lands Dec 30, Last Ember on Nov 14 and Strange Signals S5 on Nov 21. 🗓️",
+      "a": "Check the Upcoming Releases panel. Avengers DoomsDay lands Dec 15, The Apothecary Diaries' season 3 on Oct 15 and Ginny and Georgia's season 4 on Jan 21 2026. 🗓️",
       "link": { "label": "See releases", "href": "#events" }
     },
     {
@@ -63,7 +63,7 @@
     {
       "q": "🔐 Do I need an account?",
       "keywords": ["account", "login", "log in", "sign up", "signup", "register"],
-      "a": "Nope! Log in and Sign up are just a UI demo, so everything is open to browse. 😊"
+      "a": "Nope! Everything is so open to browse. 😊"
     },
     {
       "q": "💬 How do I contact the team?",

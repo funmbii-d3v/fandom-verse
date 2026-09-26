@@ -1,10 +1,10 @@
-import { useRef } from "react";
+import { useRef, useState, useEffect} from "react";
 import categories from "../data/categories.json";
 import { useAppContext } from "../context/AppContext.jsx";
 import { gsap, useGSAP } from "../gsap.js";
 import usePrefersReducedMotion from "../hooks/usePrefersReducedMotion.js";
 
-export default function CategoryPills() {
+export default function CategoryPills({scrolled}) {
   const pillsRef = useRef(null);
   const { activeCategory, setActiveCategory } = useAppContext();
   const prefersReducedMotion = usePrefersReducedMotion();
@@ -44,10 +44,10 @@ export default function CategoryPills() {
     pillsRef.current?.querySelector(`[data-category-id="${nextCategory.id}"]`)?.focus();
     selectCategory(nextCategory.id);
   }
-
+  
   return (
-    <div className="category-sticky-wrap" ref={pillsRef}>
-      <div className="category-capsule" role="tablist" aria-label="Browse fandom categories">
+        <div className={`category-sticky-wrap ${scrolled ? 'scrolled' : ''}`}>
+        <div className="category-capsule" role="tablist" aria-label="Browse fandom categories">
         {categories.map((category, index) => {
           const active = activeCategory === category.id;
           return (

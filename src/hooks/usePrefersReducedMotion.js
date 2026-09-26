@@ -6,7 +6,6 @@ export default function usePrefersReducedMotion() {
   const [prefersReducedMotion, setPrefersReducedMotion] = useState(() => {
     return typeof window !== "undefined" && window.matchMedia(REDUCED_MOTION_QUERY).matches;
   });
-
   useEffect(() => {
     if (typeof window === "undefined" || !window.matchMedia) return undefined;
 

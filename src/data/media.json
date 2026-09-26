@@ -74,6 +74,34 @@
         "gradient": ["#7c3aed", "#ff8a2b"]
       },
       {
+        "id": "fan-art-wall",
+        "title": "Community Fan Art Wall",
+        "categoryId": "anime",
+        "image": "/assets/image/fanart.jfif",
+        "gradient": ["#c084fc", "#ff3d8b"]
+      },
+      {
+        "id": "concept-sketches",
+        "title": "Pixel Garden Concept Sketches",
+        "categoryId": "gaming",
+        "image": "/assets/image/pixel.jfif",
+        "gradient": ["#0d9488", "#3b82f6"]
+      },
+      {
+        "id": "set-moments",
+        "title": "Last Ember: Set Moments",
+        "categoryId": "movies",
+        "image": "/assets/image/ember.jfif",
+        "gradient": ["#dc2626", "#f59e0b"]
+      },
+      {
+        "id": "cover-gallery",
+        "title": "Panel Break Cover Gallery",
+        "categoryId": "comics",
+        "image": "/assets/image/comic.jfif",
+        "gradient": ["#ea580c", "#facc15"]
+      },
+      {
         "id": "need2speed",
         "title": "Need For Speed",
         "image": "/assets/image/need2speed.jfif",

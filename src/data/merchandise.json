@@ -4,7 +4,7 @@
     "name": "Superman Compression Shirt",
     "priceLabel": "₦22,000",
     "image": "/assets/image/super.jpeg",
-    "cartPrice": 41.5,
+    "cartPrice": 22000,
     "categoryId": "movies"
   },
   {
@@ -12,7 +12,7 @@
     "name": "Real Madrid Dragon imprint",
     "priceLabel": "₦30000",
     "image": "/assets/image/madrid.jpeg",
-    "cartPrice": 21,
+    "cartPrice": 30000,
     "categoryId": "gaming"
   },
   {
@@ -20,7 +20,7 @@
     "name": "Batman and Catgirl Chibi Keychain",
     "priceLabel": "₦5000",
     "image": "/assets/image/chibi.jpeg",
-    "cartPrice": 51,
+    "cartPrice": 5000,
     "categoryId": "comics"
   },
   {
@@ -28,7 +28,7 @@
     "name": "Green Lantern",
     "priceLabel": "₦4000",
     "image": "/assets/image/green.jpeg",
-    "cartPrice": 28.5,
+    "cartPrice": 4000,
     "categoryId": "comics"
   },
   {
@@ -36,7 +36,7 @@
     "name": "Spinal compression shirt",
     "priceLabel": "₦15000",
     "image": "/assets/image/spinal.jpeg",
-    "cartPrice": 17,
+    "cartPrice": 15000,
     "categoryId": "movies"
   },
   {
@@ -44,7 +44,15 @@
     "name": "One Piece Zoro",
     "priceLabel": "₦23000",
     "image": "/assets/image/zoro.jpeg",
-    "cartPrice": 26,
+    "cartPrice": 23000,
     "categoryId": "anime"
+  },
+  {
+    "id": "kpop",
+    "name": "Stray Kids Backpack",
+    "priceLabel": "₦10000",
+    "image": "/assets/image/kids.jfif",
+    "cartPrice": 10000,
+    "categoryId": "kpop"
   }
 ]

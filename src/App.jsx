@@ -38,6 +38,7 @@ export default function App() {
     return stored && typeof stored === "object" && !Array.isArray(stored) ? stored : {};
   });
   const [cartItems, setCartItems] = useState([]);
+  const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
     try {
@@ -52,6 +53,17 @@ export default function App() {
     } catch {
     }
   }, [bookmarkNotes]);
+
+  useEffect(() => {
+    const navScroll = () => {
+      const hero = document.getElementById("home");
+      const heroHeight = hero?.offsetHeight ?? 600;
+      setScrolled(window.scrollY > heroHeight + 1000);
+    };
+    window.addEventListener("scroll", navScroll);
+    navScroll();
+    return () => window.removeEventListener("scroll", navScroll);
+  }, []);
 
   const productMap = useMemo(() => new Map(merchandise.map((product) => [product.id, product])), []);
   const cartCount = useMemo(() => cartItems.reduce((sum, item) => sum + item.quantity, 0), [cartItems]);
@@ -114,7 +126,7 @@ export default function App() {
       <Navbar />
       <main id="main-content">
         <HeroSection />
-        <CategoryPills />
+        <CategoryPills scrolled={scrolled} />
         <div className="page-wrap">
           <TrendingRow />
           <ArticleGrid />

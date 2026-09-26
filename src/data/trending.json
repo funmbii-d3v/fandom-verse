@@ -4,175 +4,244 @@
     "title": "Frieren: Beyond Journeys End",
     "categoryId": "anime",
     "image": "/assets/image/ff.jfif",
-    "rating": 4.8,
-    "gradient": ["#7c3aed", "#ec4899"]
+    "rating": 5.0
   },
   {
     "id": "codm",
     "title": "Call Of Duty Mobile",
     "categoryId": "gaming",
     "image": "/assets/image/codm.jfif",
-    "rating": 4.6,
-    "gradient": ["#2563eb", "#22d3ee"]
+    "rating": 4.6
   },
   {
     "id": "project-mary",
     "title": "Project Hail Mary",
     "categoryId": "movies",
     "image": "/assets/image/mary.jfif",
-    "rating": 4.9,
-    "gradient": ["#dc2626", "#f59e0b"]
+    "rating": 4.7
   },
   {
     "id": "invincible",
     "title": "Invincible",
     "categoryId": "tv",
     "image": "/assets/image/mark.jfif",
-    "rating": 4.7,
-    "gradient": ["#0d9488", "#6366f1"]
+    "rating": 4.7
   },
   {
     "id": "twelve",
     "title": "Twelve Is Midnight",
     "categoryId": "kpop",
     "image": "/assets/image/12.jfif",
-    "rating": 4.5,
-    "gradient": ["#c026d3", "#fb7185"]
+    "rating": 4.5
   },
   {
     "id": "spider-man",
     "title": "SpiderMan",
     "categoryId": "comics",
     "image": "/assets/image/spidey.jfif",
-    "rating": 4.4,
-    "gradient": ["#ea580c", "#facc15"]
+    "rating": 4.4
   },
   {
     "id": "kusuriya",
     "title": "The Apothecary Diaries",
     "categoryId": "manga",
     "image": "/assets/image/mao.jfif",
-    "rating": 4.6,
-    "gradient": ["#0f766e", "#38bdf8"]
+    "rating": 4.6
   },
   {
     "id": "bloodstrike",
     "title": "Blood Strike",
     "categoryId": "gaming",
     "image": "/assets/image/bs.jfif",
-    "rating": 4.7,
-    "gradient": ["#16a34a", "#84cc16"]
+    "rating": 4.7
   },
   {
     "id":"aot",
     "title": "Attack On Titan",
     "categoryId": "anime",
     "image": "/assets/image/aot.jfif",
-    "rating": 4.5,
-    "gradient": ""
+    "rating": 4.9
   },
     {
     "id":"queen",
     "title": "The Queen's Gambit",
     "categoryId": "tv",
     "image": "/assets/image/chess.jfif",
-    "rating": 4.0,
-    "gradient": ""
+    "rating": 4.0
   },
     {
     "id":"10",
     "title": "10 Things I Hate About You",
     "categoryId": "movies",
     "image": "/assets/image/10.gif",
-    "rating": 5.0,
-    "gradient": ""
+    "rating": 5.0
   },
     {
     "id":"last-of-us",
     "title": "The Last Of Us",
     "categoryId": "gaming",
     "image": "/assets/image/tlou.jfif",
-    "rating": 3.9,
-    "gradient": ""
+    "rating": 3.9
   },
     {
     "id":"avatar",
-    "title": "Avatar: The Last Of Us",
+    "title": "Avatar: The Last Airbender",
     "categoryId": "comics",
     "image": "/assets/image/avatar.jfif",
-    "rating": 4.2,
-    "gradient": ""
+    "rating": 4.2
   },
     {
     "id":"batman",
     "title": "BatMan",
     "categoryId": "comics",
     "image": "/assets/image/bman.jfif",
-    "rating": 4.9,
-    "gradient": ""
+    "rating": 4.9
   },
     {
     "id":"bnd",
     "title": "SpiderMan Brand New Day",
     "categoryId": "movies",
     "image": "/assets/image/bnd.jfif",
-    "rating": 4.7,
-    "gradient": ""
+    "rating": 4.7
   },
     {
     "id":"gg",
     "title": "Ginny and Georgia",
     "categoryId": "tv",
     "image": "/assets/image/gg.jfif",
-    "rating": 4.7,
-    "gradient": ""
+    "rating": 4.7
   },
   {
     "id":"guts",
     "title": "Berserk",
     "categoryId": "manga",
     "image": "/assets/image/guts.jfif",
-    "rating": 4.5,
-    "gradient": ""
+    "rating": 4.5
   },
   {
     "id":"mine",
     "title": "MineCraft",
     "categoryId": "gaming",
     "image": "/assets/image/mine.jfif",
-    "rating": 3.9,
-    "gradient": ""
+    "rating": 3.9
   },
   {
     "id":"obs",
     "title": "Obsession",
     "categoryId": "movies",
     "image": "/assets/image/OBSESSION.jfif",
-    "rating": 4.1,
-    "gradient": ""
+    "rating": 4.1
   },
   {
     "id":"skip",
     "title": "Skip and Loafer",
     "categoryId": "anime",
     "image": "/assets/image/skip.jfif",
-    "rating": 4.9,
-    "gradient": ""
+    "rating": 4.9
   },
   {
     "id":"you",
     "title": "You",
     "categoryId": "tv",
     "image": "/assets/image/you.jfif",
-    "rating": 4.3,
-    "gradient": ""
+    "rating": 4.3
   },
   {
     "id":"bts",
     "title": "BTS",
     "categoryId": "kpop",
     "image": "/assets/image/BTS.jfif",
-    "rating": 3.8,
-    "gradient": ""
+    "rating": 3.8
+  },
+  {
+    "id":"ateez",
+    "title": "Ateez",
+    "categoryId": "kpop",
+    "image": "/assets/image/attez.jfif",
+    "rating": 3.5
+  },
+  {
+    "id":"blackpink",
+    "title": "BLACKPINK",
+    "categoryId": "kpop",
+    "image": "/assets/image/bp.jfif",
+    "rating": 4.1
+  },
+  {
+    "id":"gta",
+    "title": "Grand Theft Auto VI",
+    "categoryId": "gaming",
+    "image": "/assets/image/gta.jfif",
+    "rating": 4.5
+  },
+  {
+    "id":"haikyuu",
+    "title": "Haikyuu!",
+    "categoryId": "manga",
+    "image": "/assets/image/haikyu.jfif",
+    "rating": 4.5
+  },
+  {
+    "id":"hulk",
+    "title": "The Hulk",
+    "categoryId": "comics",
+    "image": "/assets/image/hulk.jfif",
+    "rating": 3.9
+  },
+  {
+    "id":"hxh",
+    "title": "Hunter X Hunter",
+    "categoryId": "manga",
+    "image": "/assets/image/hxh.jfif",
+    "rating": 4.9
+  },
+  {
+    "id":"mha",
+    "title": "My Hero Academy",
+    "categoryId": "anime",
+    "image": "/assets/image/mha.jfif",
+    "rating": 4.7
+  },
+  {
+    "id":"monster",
+    "title": "Monster",
+    "categoryId": "manga",
+    "image": "/assets/image/monster.jfif",
+    "rating": 4.9
+  },
+  {
+    "id":"opm",
+    "title": "One Punch Man",
+    "categoryId": "manga",
+    "image": "/assets/image/op.jfif",
+    "rating": 4.2
+  },
+  {
+    "id":"oshi",
+    "title": "Oshi No Ko",
+    "categoryId": "anime",
+    "image": "/assets/image/oshi.jfif",
+    "rating": 4.8
+  },
+  {
+    "id":"shameless",
+    "title": "Shameless",
+    "categoryId": "tv",
+    "image": "/assets/image/shame.jfif",
+    "rating": 4.7
+  },
+  {
+    "id":"titans",
+    "title": "Teen Titans",
+    "categoryId": "comics",
+    "image": "/assets/image/titans.jfif",
+    "rating": 3.9
+  },
+  {
+    "id":"xmen",
+    "title": "XMen",
+    "categoryId": "comics",
+    "image": "/assets/image/xmen.jfif",
+    "rating": 4.2
   }
 ]

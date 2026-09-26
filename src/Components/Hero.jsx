@@ -73,7 +73,7 @@ export default function HeroSection() {
       <h1 className="hero-title" id="hero-title" aria-label={site.hero.headline}>
         {headlineWords.map((word, index) => (
           <span className="hero-word" key={`${word}-${index}`} aria-hidden="true">{word}{index < headlineWords.length - 1 ? " " : ""}</span>
-        ))}
+        ))}<span className="hero-special"> <br />explore today?</span>
       </h1>
       <p className="hero-subtitle">{site.hero.subtitle}</p>
 

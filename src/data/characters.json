@@ -1,9 +1,58 @@
 [
-  { "id": "kaito", "name": "Kaito", "series": "Starfall Academy", "categoryId": "anime", "emoji": "🧑‍🚀", "color": "#c084fc" },
-  { "id": "mira", "name": "Mira", "series": "Last Ember", "categoryId": "movies", "emoji": "👩‍🚀", "color": "#f87171" },
-  { "id": "ren", "name": "Ren", "series": "Star Rail Drifters", "categoryId": "gaming", "emoji": "🧙", "color": "#60a5fa" },
-  { "id": "yuna", "name": "Yuna", "series": "Neon Bloom", "categoryId": "kpop", "emoji": "🎤", "color": "#f472b6" },
-  { "id": "zed", "name": "Zed", "series": "Panel Break", "categoryId": "comics", "emoji": "🦸", "color": "#fb923c" },
-  { "id": "sora", "name": "Sora", "series": "Paper Moon Diaries", "categoryId": "manga", "emoji": "🌙", "color": "#2dd4bf" },
-  { "id": "tavi", "name": "Tavi", "series": "Strange Signals", "categoryId": "tv", "emoji": "🛰️", "color": "#fbbf24" }
+  {
+    "id": "gojo",
+    "name": "Gojo Satoru",
+    "series": "Jujutsu Kaisen",
+    "categoryId": "anime",
+    "image": "/assets/image/gojo.jfif"
+  },
+  {
+    "id": "mira",
+    "name": "Mira",
+    "series": "K-Pop Demon Hunters",
+    "categoryId": "movies",
+    "image": "/assets/image/mira.jfif"
+  },
+  {
+    "id": "ren",
+    "name": "Ren",
+    "series": "Nana",
+    "categoryId": "manga",
+    "image": "/assets/image/ren.jfif"
+  },
+  {
+    "id": "rose",
+    "name": "Rose",
+    "series": "BLACKPINK",
+    "categoryId": "kpop",
+    "image": "/assets/image/rose.jfif"
+  },
+  {
+    "id": "star",
+    "name": "StarFire",
+    "series": "Teen Titans",
+    "categoryId": "comics",
+    "image": "/assets/image/star.jfif"
+  },
+  {
+    "id": "lucia",
+    "name": "Lucia",
+    "series": "Grand Theft Auto VI",
+    "categoryId": "gaming",
+    "image": "/assets/image/lucia.jfif"
+  },
+  {
+    "id": "pomni",
+    "name": "Pomni",
+    "series": "The Amazing Digital Circus",
+    "categoryId": "tv",
+    "image": "/assets/image/pomni.jfif"
+  },
+  {
+    "id": "goku",
+    "name": "Son Goku",
+    "series": "DragonBall",
+    "categoryId": "anime",
+    "image": "/assets/image/son.jfif"
+  }
 ]
