@@ -15,6 +15,7 @@ import LazyMount from "./Components/LazyMount.jsx";
 import Footer from "./Components/Footer.jsx";
 import ChatBot from "./Components/Chatbot.jsx";
 import TrailersSection from "./Components/TrailerSection.jsx";
+import AboutContact from "./Components/AboutContact.jsx";
 import "./styles/index.css"
 
 function readJson(storage, key, fallback) {
@@ -145,6 +146,9 @@ export default function App() {
           </LazyMount>
           <LazyMount id="trailers" minHeight={400}>
             <TrailersSection />
+          </LazyMount>
+          <LazyMount id="about" minHeight={200}>
+            <AboutContact />
           </LazyMount>
         </div>
       </main>
