@@ -136,7 +136,6 @@ h3,
   line-height: 1.1;
 }
 
-/* Fixed main navigation */
 .site-nav {
   position: fixed;
   z-index: 60;
@@ -478,7 +477,6 @@ h3,
   margin: 6px 0 0;
 }
 
-/* Global search drawer under the fixed navigation */
 .searchbar-shell {
   position: fixed;
   z-index: 55;
@@ -550,13 +548,6 @@ h3,
   color: var(--muted);
   font-size: 12px;
   text-align: center;
-}
-
-.search-clear-button,
-.search-close-button {
-  width: 34px;
-  height: 34px;
-  font-size: 20px;
 }
 
 .search-close-button svg {
@@ -861,7 +852,6 @@ h3,
 
 .comic-card {
   min-width: 0;
-  overflow: hidden;
   border: 2px solid var(--ink);
   border-radius: 18px;
   background: var(--surface);

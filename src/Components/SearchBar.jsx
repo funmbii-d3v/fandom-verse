@@ -74,7 +74,7 @@ export default function SearchBar({ open, onClose }) {
               aria-label={site.actions.clearSearch}
               tabIndex={open ? 0 : -1}
             >
-              <span aria-hidden="true">×</span>
+              <span aria-hidden="true"></span>
             </button>
           ) : null}
           <button className="search-close-button" type="button" onClick={onClose} tabIndex={open ? 0 : -1}>
